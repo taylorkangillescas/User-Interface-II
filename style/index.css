@@ -32,6 +32,11 @@ header {
     width: 100%;
 }
 
+/* footer { */
+    /* height: 100px; */
+    /* width: 100%; */
+
+
 nav {
     display: flex;
     flex-direction: row;
@@ -48,7 +53,7 @@ nav {
 nav a {
     margin-right: 10%;
     text-decoration: none;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     color: white;
     font-size: 14px;
     padding: 12px 30px;
@@ -62,7 +67,6 @@ section {
     align-content: space-evenly;
     width: 80%;
     height: 80vh;
-    border: 1px solid black;
     align-items: center;
     margin: auto;
 }
@@ -70,6 +74,16 @@ section {
 h1 {
     display: flex;
     text-align: center;
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 1px black;
+}
+
+p {
+    display: flex; 
+    text-align: center;
+    color :white;
+    text-shadow: 1px 1px black;
 }
 
 .bgImage {
@@ -77,4 +91,112 @@ h1 {
     border: 1px solid black;
     display: flex;
     justify-content: center;
+    background-size: 100% 100%;
+    border-radius: 7px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    width: 86%;
+    height: 40vh;
+}
+
+.spotify {
+    background: url(./images/books.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soundcloud {
+    background: url(./images/balloons.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports{
+    background: url(./images/myself.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design {
+    background: url(./images/flowers.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration {
+    background: url(./images/love.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miscellaneous {
+    background: url(./images/walk.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.text a {
+    color: white;
+    text-decoration: none;
+}
+
+.spotify:hover .text {
+    opacity: 1;
+}
+
+.soundcloud:hover .text {
+    opacity: 1;
+}
+
+.sports:hover .text {
+    opacity: 1;
+}
+
+.design:hover .text {
+    opacity: 1;
+}
+
+.inspiration:hover .text {
+    opacity: 1;
+}
+
+.miscellaneous:hover .text {
+    opacity: 1;
 }
