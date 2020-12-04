@@ -1,1 +1,202 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* body{ */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+
+header {
+    height: 100px;
+    width: 100%;
+}
+
+/* footer { */
+    /* height: 100px; */
+    /* width: 100%; */
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+
+nav a {
+    margin-right: 10%;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    color: white;
+    font-size: 14px;
+    padding: 12px 30px;
+    transition: .3s;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    width: 80%;
+    height: 80vh;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 1px black;
+}
+
+p {
+    display: flex; 
+    text-align: center;
+    color :white;
+    text-shadow: 1px 1px black;
+}
+
+.bgImage {
+    background: url(./images/end.jpeg);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-size: 100% 100%;
+    border-radius: 7px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    width: 86%;
+    height: 40vh;
+}
+
+.spotify {
+    background: url(./images/books.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soundcloud {
+    background: url(./images/balloons.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports{
+    background: url(./images/myself.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design {
+    background: url(./images/flowers.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration {
+    background: url(./images/love.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miscellaneous {
+    background: url(./images/walk.jpeg);
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.text a {
+    color: white;
+    text-decoration: none;
+}
+
+.spotify:hover .text {
+    opacity: 1;
+}
+
+.soundcloud:hover .text {
+    opacity: 1;
+}
+
+.sports:hover .text {
+    opacity: 1;
+}
+
+.design:hover .text {
+    opacity: 1;
+}
+
+.inspiration:hover .text {
+    opacity: 1;
+}
+
+.miscellaneous:hover .text {
+    opacity: 1;
+}
